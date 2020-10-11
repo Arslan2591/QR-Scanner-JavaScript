@@ -1,0 +1,70 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 0 10px;
+  height: 100%;
+  background: black;
+  margin: 0;
+}
+
+h1 {
+  color: white;
+  margin: 0;
+  padding: 15px;
+}
+
+#container {
+  text-align: center;
+  margin: 0;
+}
+
+#scanContainer{
+  position: relative;
+  text-align: center;
+}
+
+#qr-canvas {
+  
+  width: calc(100% - 20px);
+  max-width: 400px;
+  position: absolute;
+  left: 35%;
+}
+
+#btn-scan-qr {
+  cursor: pointer;
+}
+
+#btn-scan-qr img {
+  height: 10em;
+  padding: 15px;
+  margin: 15px;
+  background: white;
+}
+
+#qr-result {
+  font-size: 1.2em;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 700px;
+  background-color: white;
+}
+
+
+
+#overlay{
+  display: none;
+  position: absolute;
+  z-index: 30000;
+  height: 400px;
+  width: 400px;
+  opacity: 0.5;
+  pointer-events: none;
+  left: 35%;
+ 
+  
+
+}
